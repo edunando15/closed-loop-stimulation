@@ -82,7 +82,6 @@ class PyProcessor:
                     self.NREM = False
                 self.buffer_eeg = []
                 self.buffer_emg = []
-                sys.exit()  # Exit the method.
 
             if self.NREM:
                 signs = [1 if x < y else 0 if x == y else -1 for x, y in zip(data[1][:-1], data[1][1:])]
