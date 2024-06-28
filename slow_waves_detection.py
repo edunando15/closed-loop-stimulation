@@ -10,7 +10,7 @@ import oe_pyprocessor
 
 def play_audio_thread():
     try:
-        playsound(r'C:\\Users\\Utente\\Documents\\Open Ephys\\pink_noise_35dB_SPL_moreira.m4a', False)
+        playsound(r'C:\\Users\\Utente\\Documents\\Open Ephys\\pink_noise_35dB.m4a', False)
     except Exception as e:
         print('Exception playing file:', e)
 
